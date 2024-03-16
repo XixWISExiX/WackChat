@@ -32,4 +32,4 @@ submit a PR (Pull Request) to add code to the code repo
 
 ### How do I know what to work on?
 
-There should be a ZenHub for this git repo and issues are in there for you to try and solve and tackle.
+There should be a ZenHub for this git repo and issues are in there for you to try and solve and tackle. (message me for the link)

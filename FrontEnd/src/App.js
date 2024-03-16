@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+// import "./App.css";
+import Login from "./Login/Login.js";
+import HomePage from "./HomePage/HomePage.js";
+import GoogleAuth from "./Login/GoogleAuth.js";
+import { GoogleOAuthProvider } from "@react-oauth/google";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GoogleOAuthProvider clientId="582275805758-f9hfkh9uc08p9p2858hepodk0hqjpv1s.apps.googleusercontent.com">
+      {/* <Login></Login> */}
+      {/* <HomePage></HomePage> */}
+      <GoogleAuth></GoogleAuth>
+    </GoogleOAuthProvider>
   );
 }
 
