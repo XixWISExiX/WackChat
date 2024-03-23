@@ -1,0 +1,15 @@
+/* Style for the main text box */
+#messageBox {
+  width: 60rem;
+  height: 6.25rem; /* Adjust height as needed */
+  padding: 0.625rem;
+  border: 2px solid #ccc;
+  border-radius: 20px; /* Rounded edges */
+  font-size: 1rem;
+  resize: none; /* Disable resizing */
+}
+
+/* Style for the main text box when it's invalid (empty or exceeds character limit) */
+#messageBox:invalid {
+  border-color: #ff0000; /* Red border */
+}

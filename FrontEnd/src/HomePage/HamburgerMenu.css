@@ -45,6 +45,11 @@
   transform: rotate(-45deg) translateY(-5px) translateX(5px); /* Adjust rotation and position */
 }
 
+.menu-button.open {
+  margin-left: -0.1875rem;
+  margin-right: 0.1875rem;
+}
+
 .menu-items {
   list-style: none;
   padding: 0;
@@ -53,7 +58,7 @@
   top: 100%;
   left: 0;
   background-color: #fff;
-  width: 200px;
+  width: 15rem;
   border: 1px solid #ccc;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   display: none;
@@ -61,4 +66,44 @@
 
 .menu-items.open {
   display: block;
+}
+
+.sign-out-button {
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White */
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-out-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.msg-btn {
+  background-color: #28a745; /* Green */
+  color: #fff; /* White */
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.msg-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+li {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.first-li {
+  margin-top: 0.5rem;
 }

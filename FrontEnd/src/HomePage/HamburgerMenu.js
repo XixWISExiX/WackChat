@@ -24,10 +24,14 @@ const HamburgerMenu = ({ handleLogout }) => {
 
       {/* Menu items */}
       <ul className={`menu-items ${isOpen ? "open" : ""}`}>
-        <li>Home</li>
+        <li className="first-li">
+          <button className="msg-btn">Message Person 💬</button>
+        </li>
         <li>
           {" "}
-          <button onClick={handleLogout}>Sign out</button>
+          <button onClick={handleLogout} className="sign-out-button">
+            Sign out
+          </button>
         </li>
       </ul>
     </div>
