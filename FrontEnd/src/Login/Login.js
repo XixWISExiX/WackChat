@@ -5,10 +5,10 @@ import { ReactComponent as UserIcon } from "../images/usericon.svg";
 import { ReactComponent as LockIcon } from "../images/lockicon.svg";
 
 const LoginForm = ({ onLoginSuccess }) => {
-  const [showPassword, setShowPassword] = useState(false);
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
-  };
+  // const [showPassword, setShowPassword] = useState(false);
+  // const togglePasswordVisibility = () => {
+  //   setShowPassword(!showPassword);
+  // };
   return (
     <div className="bg-img">
       <div className="content">
