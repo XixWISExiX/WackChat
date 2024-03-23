@@ -129,6 +129,11 @@
   background: #e1306c;
   border: 1px solid #df2060;
 }
+.google {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
 .facebook:hover {
   background: #3e61a8;
 }
@@ -162,4 +167,16 @@ i span {
   align-self: center;
   width: 1.5rem;
   height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.wackText {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.arrow {
+  margin-top: 0.5rem;
+  font-size: 4rem;
 }
