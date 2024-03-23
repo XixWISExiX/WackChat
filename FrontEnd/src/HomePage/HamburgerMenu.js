@@ -8,12 +8,6 @@ const HamburgerMenu = ({ handleLogout }) => {
     setIsOpen(!isOpen);
   };
 
-  //   const handleLogout = () => {
-  //     // Perform Google sign-out logic...
-  //     // After successful sign-out, call onLogout callback
-  //     onLogout();
-  //   };
-
   return (
     <div className="hamburger-menu">
       {/* Hamburger menu button */}

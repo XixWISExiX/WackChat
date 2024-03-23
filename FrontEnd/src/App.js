@@ -3,33 +3,6 @@ import HomePage from "./HomePage/HomePage.js";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import React, { useState, useEffect } from "react";
 
-// //TODO Test Login interface
-// function App() {
-//   const [loggedIn, setLoggedIn] = useState(false);
-
-//   const handleLoginSuccess = () => {
-//     setLoggedIn(true);
-//   };
-
-//   const handleLogoutSuccess = () => {
-//     setLoggedIn(false);
-//   };
-
-//   return (
-//     <GoogleOAuthProvider clientId="582275805758-f9hfkh9uc08p9p2858hepodk0hqjpv1s.apps.googleusercontent.com">
-//       {loggedIn ? (
-//         <HomePage onLogoutSuccess={handleLogoutSuccess} />
-//       ) : (
-//         <Login onLoginSuccess={handleLoginSuccess} />
-//       )}
-//     </GoogleOAuthProvider>
-//   );
-// }
-
-// export default App;
-
-//TODO Make login status stay
-
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
 
@@ -49,7 +22,6 @@ const App = () => {
 
   const handleLogout = () => {
     setLoggedIn(false);
-    console.log("Hehehe ha");
     // Remove the authentication token from localStorage
     localStorage.removeItem("authToken");
   };
